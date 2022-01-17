@@ -1,0 +1,44 @@
+body{
+background-image: url(../../public/images/backgroundImage.jpg);
+
+
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #FF0000;
+    font-size: 70px;
+
+}
+h6{
+    text-align: center;
+    padding-bottom: 10px;
+    color: hsl(88, 100%, 50%);
+    font-size: 40px;
+
+}
+h4{
+text-align : center;
+color : hsl(315, 100%, 50%);
+font-size: 30px;
+}
+.nav-link {
+   font-size:40px;
+   padding: 40px 80px;
+   background-image: url(../../public/images/rocket.jpg);
+   text-decoration: none;
+   
+}
+.nav-link:hover{
+    background-image: url(../../public/images/movingRocket.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+ 
+}
+
+.nav-image{
+align-items : center;
+justify-content: center;
+display: flex;
+height : 100 vh;
+}
